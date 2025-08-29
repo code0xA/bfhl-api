@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-const fullName = "anam saeed";  
+const fullName = "Anam Saeed";  
 const dob = "29062004";      
 const userId = `${fullName.replace(/ /g, "_")}_${dob}`;
-const email = "shoptyannu@gmail.com"; 
-const rollNumber = "22BCE11045"; 
+const email = "shoptyanny@gmail.com"; 
+const rollNumber = "22BCE11045";
 
 app.post('/bfhl', (req, res) => {
   try {
